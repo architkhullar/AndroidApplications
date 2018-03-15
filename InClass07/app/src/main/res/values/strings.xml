@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">InClass07</string>
+    <string name="contentDesc">image</string>
+    <string name="imageDesc">image</string>
+    <string name="backButton">Back</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InClass04</string>
+    <string name="StrPass">Select Password Count</string>
+    <string name="StrLength">Select Password Length:</string>
+    <string name="StrPasss">Select Password Count:</string>
+    <string name="Pass">Password:</string>
+    <string name="GenPass">Generate Password (Thread)</string>
+    <string name="GenPass1">Generate Password (Async)</string>
+    <string name="welcome">Welcome To Password Generator APP</string>
+</resources>

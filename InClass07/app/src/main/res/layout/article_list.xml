@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.news.listview.inclass07.NewsActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/contentDesc"
+        app:srcCompat="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/titletv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/publishedtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titletv"
+        android:layout_alignStart="@+id/titletv"
+        android:layout_below="@+id/titletv" />
+</RelativeLayout>

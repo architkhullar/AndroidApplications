@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Inclass02</string>
+    <string name="agestring">Age</string>
+    <string name="weightstring">Weight</string>
+    <string name="heightstring">Height</string>
+</resources>

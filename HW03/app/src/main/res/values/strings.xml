@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HW03</string>
+    <string name="StatString" />
+    <string name="ExitBtn">Exit</string>
+    <string name="StartBtn">Start Trivia</string>
+    <string name="WelcomeString">Welcome to Trivia App</string>
+    <string name="Trivia" />
+    <string name="Que" />
+    <string name="Timer" />
+    <string name="BtnNext">NEXT</string>
+    <string name="BtnQuit">QUIT</string>
+    <string name="Option4" />
+    <string name="Option3" />
+    <string name="Option2" />
+    <string name="Option1" />
+    <string name="Question" />
+    <string name="QueImage" />
+    <string name="Stats">Trivia Stats</string>
+    <string name="CorrectAns">Correct Answers</string>
+    <string name="TryAgain">Try Again</string>
+    <string name="Quit">Quit</string>
+    <string name="stat" />
+    <string name="percent" />
+</resources>

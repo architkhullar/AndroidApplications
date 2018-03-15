@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.news.listview.inclass07.BriefNews">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/detailTitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/detailPublishedtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/detailTitleTv"
+            android:layout_alignStart="@+id/detailTitleTv"
+            android:layout_below="@+id/detailTitleTv"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/detailImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailPublishedtv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:contentDescription="@string/imageDesc"
+            app:srcCompat="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/detailSummarytv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="@string/backButton" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

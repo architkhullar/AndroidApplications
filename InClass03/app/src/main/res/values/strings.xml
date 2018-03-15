@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="StringName">Name</string>
+    <string name="StringEmail">Email</string>
+    <string name="StringDept">Department</string>
+    <string name="StringSIS">SIS</string>
+    <string name="StringCS">CS</string>
+    <string name="StringBIO">BIO</string>
+    <string name="StringOthers">Others</string>
+    <string name="StringMood">Your current mood:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="StringInfo">Student information</string>
+    <string name="stringsave">Save</string>
+    <string name="bnsubmit">Submit</string>
+</resources>

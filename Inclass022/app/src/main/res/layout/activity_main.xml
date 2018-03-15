@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.group19.inclass02.MainActivity">
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="@string/agestring"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="@string/weightstring"
+        app:layout_constraintTop_toBottomOf="@+id/age"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/heightstring"
+        app:layout_constraintTop_toBottomOf="@+id/weight"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/years"
+        android:layout_width="188dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Years"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/age"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pounds"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Pounds"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/weight"
+        app:layout_constraintTop_toBottomOf="@+id/years" />
+
+    <EditText
+        android:id="@+id/feet"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="feet"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/height"
+        app:layout_constraintTop_toBottomOf="@+id/pounds" />
+
+    <EditText
+        android:id="@+id/inches"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="inches"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/feet"
+        app:layout_constraintTop_toBottomOf="@+id/pounds" />
+
+    <Button
+        android:id="@+id/calcutate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="268dp"
+        android:text="calcuate"
+        android:onClick="clickButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="334dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="352dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+

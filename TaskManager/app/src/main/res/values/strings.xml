@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+    <string name="titlestr">Title</string>
+    <string name="datestr">Date</string>
+    <string name="timestr">Time</string>
+    <string name="strpriority">Priority:</string>
+    <string name="highstr">High</string>
+    <string name="mediumstr">Medium</string>
+    <string name="lowstr">Low</string>
+    <string name="savestr">Save</string>
+    <string name="strtasktitle">Task Title</string>
+    <string name="strtaskdate">Task Date</string>
+    <string name="tasktimestr">Task TIme</string>
+    <string name="taskpriority">Task Priority</string>
+    <string name="strnotask">No Task</string>
+    <string name="appname">To Do List</string>
+</resources>

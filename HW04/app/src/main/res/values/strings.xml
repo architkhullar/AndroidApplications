@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InClass06</string>
+    <string name="StrCategories">Show Categories</string>
+    <string name="BtnGo">GO</string>
+    <string name="StrTitle" />
+    <string name="StrDate" />
+    <string name="Img" />
+    <string name="index" />
+    <string name="Title" />
+    <string name="Date" />
+    <string name="Categories">Show Categories</string>
+    <string name="Cat">Show Categories</string>
+    <string name="Loading" />
+</resources>
